@@ -36,13 +36,19 @@ function to_lines(figures) {
             ret = ret.concat(fig.slice(0,3))
             ret = ret.concat(fig.slice(6,9))
         } else if (fig.length === 12){
-            ret = ret.concat(fig.slice(0,6))
-            ret = ret.concat(fig.slice(3,9))
-            ret = ret.concat(fig.slice(6,12))
             ret = ret.concat(fig.slice(0,3))
-            ret = ret.concat(fig.slice(8,12))
+            ret = ret.concat(fig.slice(3,6))
+            ret = ret.concat(fig.slice(0,3))
+            ret = ret.concat(fig.slice(6,9))
+            ret = ret.concat(fig.slice(3,6))
+            ret = ret.concat(fig.slice(9,12))
+            ret = ret.concat(fig.slice(6,9))
+            ret = ret.concat(fig.slice(9,12))
+            // ret = ret.concat(fig.slice(0,3))
+            // ret = ret.concat(fig.slice(8,12))
         }
     })
+    // ret = [0.0,0.2,0.0,0.3,1.0,0.0]
     return ret;
 }
 
