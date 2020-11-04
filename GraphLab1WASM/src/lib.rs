@@ -144,7 +144,7 @@ pub fn render(
     gl.clear_color(0.7, 0.5, 0.7, 1.0);
 
     // // Enable the depth test
-    gl.enable(WebGlRenderingContext::DEPTH_TEST);
+    // gl.enable(WebGlRenderingContext::DEPTH_TEST);
 
     // Clear the color buffer bit
     gl.clear(WebGlRenderingContext::COLOR_BUFFER_BIT);
@@ -168,7 +168,7 @@ pub fn render(
     let frag_color_vec: Vec<f32> = vec![0.0, 0.0, 0.0];
 
     gl.uniform3fv_with_f32_array(frag_color.as_ref(),  &frag_color_vec[..]);
-    // Draw the triangle
+    // Draw lines
     gl.draw_arrays(WebGlRenderingContext::LINES, 0, (lines.len() / 3) as i32);
 
 

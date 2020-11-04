@@ -52,6 +52,7 @@ function to_lines(figures) {
     return ret;
 }
 
+
 function main(data){
     let figures = data.figures
     triangles = to_triangles(figures)
