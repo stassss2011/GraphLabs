@@ -133,9 +133,6 @@
 /******/ 					"__wbg_drawArrays_cbb0990b0388fa17": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 						return installedModules["../pkg/graph_lab1_wasm_bg.js"].exports["__wbg_drawArrays_cbb0990b0388fa17"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
-/******/ 					"__wbg_enable_700dbd1724c67920": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/graph_lab1_wasm_bg.js"].exports["__wbg_enable_700dbd1724c67920"](p0i32,p1i32);
-/******/ 					},
 /******/ 					"__wbg_enableVertexAttribArray_4b6614b028d442ff": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/graph_lab1_wasm_bg.js"].exports["__wbg_enableVertexAttribArray_4b6614b028d442ff"](p0i32,p1i32);
 /******/ 					},
@@ -348,7 +345,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/graph_lab1_wasm_bg.wasm":"501d1a108d6c4b16d795"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/graph_lab1_wasm_bg.wasm":"30984d015f7076dc509a"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
