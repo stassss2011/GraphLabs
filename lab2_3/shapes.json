@@ -1,0 +1,257 @@
+{
+  "windowHeight": 750,
+  "windowWidth": 750,
+  "windowCoords": [
+    100,
+    100
+  ],
+  "shapes": [
+    {
+      "type": "sphere",
+      "attributes": {
+        "texture_img": "2k_mars.jpg",
+        "fill": true,
+        "center": [
+          -0.5,
+          1.5,
+          0.1
+        ],
+        "color": [
+          0.2,
+          0.3,
+          0.8
+        ],
+        "alpha": 1,
+        "radius": 0.2,
+        "type": "star",
+        "move": true,
+        "moveSpeed": 0.004,
+        "light": {
+          "mainAttributes": {
+            "ambient": [
+              0.3,
+              0.3,
+              0.6,
+              1.0
+            ],
+            "diffuse": [
+              0.6,
+              0.7,
+              0.7,
+              1.0
+            ],
+            "specular": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "position": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "specialAttributes": {
+            "constant": 1,
+            "linear": 1,
+            "quadratic": 1
+          }
+        }
+      }
+    },
+    {
+      "type": "sphere",
+      "attributes": {
+        "texture_img": "2k_venus_surface.jpg",
+        "fill": true,
+        "center": [
+          -2,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "radius": 0.3,
+        "type": "star",
+        "move": true,
+        "moveSpeed": 0.03,
+        "light": {
+          "mainAttributes": {
+            "ambient": [
+              0.5,
+              0.6,
+              0.6,
+              1.0
+            ],
+            "diffuse": [
+              0.8,
+              0.7,
+              0.1,
+              1.0
+            ],
+            "specular": [
+              0.6,
+              0.5,
+              0.4,
+              1.0
+            ],
+            "position": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "specialAttributes": {
+            "constant": 0.7,
+            "linear": 0.5,
+            "quadratic": 0.1
+          }
+        }
+      }
+    },
+    {
+      "type": "sphere",
+      "attributes": {
+        "texture_img": "2k_venus_surface.jpg",
+        "fill": true,
+        "center": [
+          -0.5,
+          -0.5,
+          0
+        ],
+        "color": [
+          1,
+          0,
+          0.5
+        ],
+        "alpha": 1,
+        "radius": 0.08,
+        "type": "star",
+        "move": true,
+        "moveSpeed": 0.013,
+        "light": {
+          "mainAttributes": {
+            "ambient": [
+              0.2,
+              0.4,
+              0.6,
+              1.0
+            ],
+            "diffuse": [
+              0.3,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "specular": [
+              0.4,
+              0.7,
+              0.3,
+              1.0
+            ],
+            "position": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "specialAttributes": {
+            "constant": 0.3,
+            "linear": 0.3,
+            "quadratic": 0.4
+          }
+        }
+      }
+    },
+    {
+      "type": "sphere",
+      "attributes": {
+        "texture_img": "2k_earth_daymap.jpg",
+        "fill": true,
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          0
+        ],
+        "alpha": 1,
+        "radius": 0.3,
+        "type": "planet",
+        "move": false
+      }
+    },
+    {
+      "type": "plane",
+      "attributes": {
+        "equation": "sqrt(x)+sqrt(y)",
+        "fill": true,
+        "center": [
+          0.5,
+          0.5,
+          0
+        ],
+        "color": [
+          1,
+          0,
+          0.6
+        ],
+        "alpha": 0
+      }
+    },
+    {
+      "type": "cube",
+      "attributes": {
+        "fill": true,
+        "center": [
+          -0.5,
+          0.5,
+          0.2
+        ],
+        "color": [
+          1,
+          0,
+          1
+        ],
+        "alpha": 1,
+        "size": 0.3,
+        "type": "planet",
+        "move": false
+      }
+    },
+    {
+      "type": "torus",
+      "attributes": {
+        "fill": true,
+        "center": [
+          -0.5,
+          -0.3,
+          0.7
+        ],
+        "color": [
+          1,
+          0,
+          1
+        ],
+        "alpha": 1,
+        "inner_r": 0.2,
+        "outer_r": 0.4,
+        "nsides": 30,
+        "rings": 30,
+        "type": "planet",
+        "move": false
+      }
+    }
+  ]
+}
